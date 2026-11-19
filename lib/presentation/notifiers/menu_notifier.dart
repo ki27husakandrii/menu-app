@@ -6,6 +6,7 @@ import '../../application/use_cases/get_menu_items.dart';
 import '../../domain/entities/menu_item.dart';
 
 /// Глобальний стан меню. Працює лише через use case-и, а не через сховище.
+/// Глобальний стан меню (Provider).
 class MenuNotifier extends ChangeNotifier {
   MenuNotifier({
     required GetMenuItems getMenuItems,
