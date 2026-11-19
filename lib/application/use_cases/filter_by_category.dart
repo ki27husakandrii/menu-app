@@ -1,6 +1,7 @@
 import '../../domain/entities/menu_item.dart';
 import '../../domain/repositories/menu_repository.dart';
 
+/// Use case: відбір страв за категорією. Працює лише через інтерфейс MenuRepository.
 class FilterByCategory {
   const FilterByCategory(this._repository);
 
